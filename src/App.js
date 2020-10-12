@@ -1,26 +1,45 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { makeStyles } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
+import DyeList from './DyesList';
+import { Typography } from '@material-ui/core';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const useStyles = makeStyles((theme) => ({
+	root: {
+        maxWidth: '100%',
+        minHeight: '100vh',
+        background: 'linear-gradient(#537780, #11d3bc, #55e9bc, #fffcca)',
+        backgroundAttachment: 'fixed',
+        [theme.breakpoints.up('lg')]: {            
+            paddingTop: theme.spacing(4),
+            paddingBottom: theme.spacing(8),
+		},
+    },
+	paper: {
+		maxWidth: 1080,
+        margin: '0 auto',
+		backgroundColor: theme.palette.background.paper,
+    },
+    madeBy: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingTop: theme.spacing(2),
+        paddingBottom: theme.spacing(2),
+    },
+}));
+
+export default function App() {
+    const classes = useStyles();
+
+	return (
+		<div className={classes.root}>            
+		    <Paper className={classes.paper} elevation={3}>
+                <DyeList></DyeList>
+                <div className={classes.madeBy}>
+                    <Typography variant='subtitle2'>Made by Chelle Croke</Typography>
+                </div>
+            </Paper>
+        </div>
+	);
 }
-
-export default App;
