@@ -24,7 +24,6 @@ import Typography from '@material-ui/core/Typography';
 import ExpandLess from '@material-ui/icons/ExpandLess';
 import ExpandMore from '@material-ui/icons/ExpandMore';
 import SearchIcon from '@material-ui/icons/Search';
-import FilterList from '@material-ui/icons/FilterList';
 import Lens from '@material-ui/icons/Lens';
 import data from './dyelist.json';
 
@@ -110,7 +109,9 @@ const useStyles = makeStyles((theme) => ({
 		},
 	},
 	filterButtonContainer: {
-		display: 'flex',
+        display: 'flex',
+        flexWrap: 'wrap',
+        justifyContent: 'start',
 		backgroundColor: '#eaeaea',
 		padding: (theme.spacing(2)),
 	},
@@ -159,7 +160,11 @@ const useStyles = makeStyles((theme) => ({
 		fontWeight: 'bold',
 	},
 	locationValue: {
-		whiteSpace: 'pre-wrap',
+        display: 'inline-block',
+        width: '100%',
+        whiteSpace: 'pre-wrap',
+        marginTop: theme.spacing(1),
+        marginBottom: theme.spacing(1),
 	},
 	noItems: {
 		paddingTop: theme.spacing(4),
@@ -328,7 +333,7 @@ export default function DyeList() {
 	);
 
 	const toolbar = (
-		<AppBar position='static' className={classes.appBar} position='sticky'>
+		<AppBar className={classes.appBar} position='sticky'>
 			<Toolbar className={classes.toolbar}>
 				<Typography className={classes.title} variant='h6' noWrap>
 					Final Fantasy 14 Dye Locations
@@ -409,7 +414,7 @@ export default function DyeList() {
 								var locationEntries =
 									typeof locationDetail === 'string'
 										? locationDetail
-										: locationDetail.join('\n');
+										: locationDetail.join('/');
 								return (
 									<div
 										key={
@@ -429,11 +434,10 @@ export default function DyeList() {
 												key={
 													value.name + locationDetail
 												}
-												className={
-													classes.locationValue
-												}
 											>
-												{locationEntries}
+												{locationEntries.split('/').map((loc, _) => {
+                                                    return <span className={classes.locationValue}>{loc}</span>
+                                                })}
 											</Typography>
 										</ListItem>
 										<Divider />
