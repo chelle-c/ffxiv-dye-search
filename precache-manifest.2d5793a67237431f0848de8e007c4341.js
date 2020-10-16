@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7bf93a4056432f6c3448f88f49e96ce6",
+    "revision": "4745c7a550d03a0f8238cae45e162e40",
     "url": "/ffxiv-dye-search/index.html"
   },
   {
-    "revision": "d6a1a051a4df2267b9a9",
+    "revision": "4ce97ed8d0e2e74116c4",
     "url": "/ffxiv-dye-search/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "52498e9c301a5e201f06",
-    "url": "/ffxiv-dye-search/static/js/2.f4fa255c.chunk.js"
+    "revision": "59cf514b4ec3dbf320d1",
+    "url": "/ffxiv-dye-search/static/js/2.6ae75c09.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/ffxiv-dye-search/static/js/2.f4fa255c.chunk.js.LICENSE.txt"
+    "url": "/ffxiv-dye-search/static/js/2.6ae75c09.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d6a1a051a4df2267b9a9",
-    "url": "/ffxiv-dye-search/static/js/main.8f1bbb43.chunk.js"
+    "revision": "4ce97ed8d0e2e74116c4",
+    "url": "/ffxiv-dye-search/static/js/main.2927fea0.chunk.js"
   },
   {
     "revision": "24cc42d390b229a03310",
