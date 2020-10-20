@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ffxiv-dye-search/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/ffxiv-dye-search/static/js/main.2927fea0.chunk.js",
-    "main.js.map": "/ffxiv-dye-search/static/js/main.2927fea0.chunk.js.map",
+    "main.js": "/ffxiv-dye-search/static/js/main.b67ebb0a.chunk.js",
+    "main.js.map": "/ffxiv-dye-search/static/js/main.b67ebb0a.chunk.js.map",
     "runtime-main.js": "/ffxiv-dye-search/static/js/runtime-main.5c485951.js",
     "runtime-main.js.map": "/ffxiv-dye-search/static/js/runtime-main.5c485951.js.map",
     "static/js/2.6ae75c09.chunk.js": "/ffxiv-dye-search/static/js/2.6ae75c09.chunk.js",
     "static/js/2.6ae75c09.chunk.js.map": "/ffxiv-dye-search/static/js/2.6ae75c09.chunk.js.map",
     "index.html": "/ffxiv-dye-search/index.html",
-    "precache-manifest.2d5793a67237431f0848de8e007c4341.js": "/ffxiv-dye-search/precache-manifest.2d5793a67237431f0848de8e007c4341.js",
+    "precache-manifest.8dfe6fbe5e6a508d6b274ea9c7f41670.js": "/ffxiv-dye-search/precache-manifest.8dfe6fbe5e6a508d6b274ea9c7f41670.js",
     "service-worker.js": "/ffxiv-dye-search/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/ffxiv-dye-search/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.6ae75c09.chunk.js.LICENSE.txt": "/ffxiv-dye-search/static/js/2.6ae75c09.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5c485951.js",
     "static/js/2.6ae75c09.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.2927fea0.chunk.js"
+    "static/js/main.b67ebb0a.chunk.js"
   ]
 }

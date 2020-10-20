@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4745c7a550d03a0f8238cae45e162e40",
+    "revision": "18299d327569f21e92db5c3a21c7652e",
     "url": "/ffxiv-dye-search/index.html"
   },
   {
-    "revision": "4ce97ed8d0e2e74116c4",
+    "revision": "87a2a79f049e8be8d44b",
     "url": "/ffxiv-dye-search/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ffxiv-dye-search/static/js/2.6ae75c09.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4ce97ed8d0e2e74116c4",
-    "url": "/ffxiv-dye-search/static/js/main.2927fea0.chunk.js"
+    "revision": "87a2a79f049e8be8d44b",
+    "url": "/ffxiv-dye-search/static/js/main.b67ebb0a.chunk.js"
   },
   {
     "revision": "24cc42d390b229a03310",

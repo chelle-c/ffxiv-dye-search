@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ffxiv-dye-search/precache-manifest.2d5793a67237431f0848de8e007c4341.js"
+  "/ffxiv-dye-search/precache-manifest.8dfe6fbe5e6a508d6b274ea9c7f41670.js"
 );
 
 self.addEventListener('message', (event) => {
