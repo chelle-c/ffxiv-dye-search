@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import { fade, makeStyles } from '@material-ui/core/styles';
 import {
 	blueGrey,
@@ -109,14 +109,14 @@ const useStyles = makeStyles((theme) => ({
 		},
 	},
 	filterButtonContainer: {
-        display: 'flex',
-        flexWrap: 'wrap',
-        justifyContent: 'start',
+		display: 'flex',
+		flexWrap: 'wrap',
+		justifyContent: 'start',
 		backgroundColor: '#eaeaea',
-		padding: (theme.spacing(2)),
+        padding: theme.spacing(2),
 	},
 	filterButton: {
-        margin: theme.spacing(1),
+		margin: theme.spacing(1),
 	},
 	listItem: {
 		display: 'grid',
@@ -160,11 +160,11 @@ const useStyles = makeStyles((theme) => ({
 		fontWeight: 'bold',
 	},
 	locationValue: {
-        display: 'inline-block',
-        width: '100%',
-        whiteSpace: 'pre-wrap',
-        marginTop: theme.spacing(1),
-        marginBottom: theme.spacing(1),
+		display: 'inline-block',
+		width: '100%',
+		whiteSpace: 'pre-wrap',
+		marginTop: theme.spacing(1),
+		marginBottom: theme.spacing(1),
 	},
 	noItems: {
 		paddingTop: theme.spacing(4),
@@ -175,15 +175,15 @@ const useStyles = makeStyles((theme) => ({
 
 export default function DyeList() {
 	const classes = useStyles();
-    const [searchValue, setSearchValue] = useState('');
-    const [filter, setFilter] = useState({
-        alphabetically: false,
-        ascending: false
-    });
+	const [searchValue, setSearchValue] = useState('');
+	const [filter, setFilter] = useState({
+		alphabetically: false,
+		ascending: false,
+	});
 	const [optionsExpand, setoptionsExpand] = useState(false);
 	const [open, setOpen] = useState({});
 
-    const colourGroups = [
+	const colourGroups = [
 		'Greys',
 		'Reds',
 		'Browns',
@@ -201,80 +201,84 @@ export default function DyeList() {
 		green[500],
 		blue[500],
 		purple[500],
-    ];
+	];
 
 	const handleOptionsExpand = () => {
 		setoptionsExpand(!optionsExpand);
 	};
 
 	const handleSearchValue = (event) => {
-		setSearchValue(event.target.value);
+        setSearchValue(event.target.value);
+        setOpen({});
 	};
 
 	const changeSearchValue = (newValue) => {
-		setSearchValue(newValue);
-    };
+        setSearchValue(newValue);
+        setOpen({});
+	};
 
 	const handleItemExpand = (index) => {
 		setOpen({ ...open, [index]: !open[index] });
 	};
 
-	const filteredItems = 
-        filter.alphabetically ? 
-            data
-            .slice()
-            .sort((a, b) => {
-                var textA = a.name.toUpperCase();
-                var textB = b.name.toUpperCase();
-                return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
-            })
-            .filter((items) => {
-                const searchTerm = searchValue.toLowerCase();
-                if (searchValue === '' || searchValue === null) {            
-                    return data;
-                } else if (
-                    items.group.toLowerCase().includes(searchTerm) ||
-                    items.name.toLowerCase().includes(searchTerm)
-                ) {
-                    return items;
-                }
-                return null;
-            })
-        :
-            data.slice().filter((items) => {
-                const searchTerm = searchValue.toLowerCase();
-                if (searchValue === '' || searchValue === null) {            
-                    return data;
-                } else if (
-                    items.group.toLowerCase().includes(searchTerm) ||
-                    items.name.toLowerCase().includes(searchTerm)
-                ) {
-                    return items;
-                }
-                return null;
-            });
-    
-    const sortAlphabetically = () => {
-        setFilter({alphabetically: true});
-    }
+	const filteredItems = useMemo(
+        () => filter.alphabetically
+		? data
+				.slice()
+				.sort((a, b) => {
+					var textA = a.name.toUpperCase();
+					var textB = b.name.toUpperCase();
+					return textA < textB ? -1 : textA > textB ? 1 : 0;
+				})
+				.filter((items) => {
+					const searchTerm = searchValue.toLowerCase();
+					if (searchValue === '' || searchValue === null) {
+						return data;
+					} else if (
+						items.group.toLowerCase().includes(searchTerm) ||
+						items.name.toLowerCase().includes(searchTerm)
+					) {
+						return items;
+					}
+					return null;
+				})
+		: data.slice().filter((items) => {
+				const searchTerm = searchValue.toLowerCase();
+				if (searchValue === '' || searchValue === null) {
+					return data;
+				} else if (
+					items.group.toLowerCase().includes(searchTerm) ||
+					items.name.toLowerCase().includes(searchTerm)
+				) {
+					return items;
+				}
+				return null;
+          }),
+          [searchValue, filter.alphabetically]
+    );
 
-    const sortByColour = () => {
-        setFilter({alphabetically: false});
-    }
+	const sortAlphabetically = () => {
+        setFilter({ alphabetically: true });
+	};
+
+	const sortByColour = () => {
+        setFilter({ alphabetically: false });
+	};
 
 	const createFilterButtons = colourGroups.map((groupName, index) => {
 		return (
 			<Button
-				id={groupName}
+                id={groupName}
+                key={groupName}
 				style={{
 					background:
 						index === colourGroups.length - 1
 							? 'linear-gradient(45deg, #e91e63, #9c27b0, #2196f3, #4caf50, #ffeb3b)'
-                            : filterButtonColours[index],
-                    color: 'white',
+							: filterButtonColours[index],
+					color: 'white',
 				}}
-                variant='contained'
-                className={classes.filterButton}
+				variant='contained'
+				className={classes.filterButton}
 				onClick={() => {
 					changeSearchValue(groupName);
 				}}
@@ -282,7 +286,7 @@ export default function DyeList() {
 				{groupName}
 			</Button>
 		);
-    });
+	});
 
 	const renderOptions = (
 		<Collapse
@@ -291,12 +295,12 @@ export default function DyeList() {
 			timeout='auto'
 			unmountOnExit
 		>
-            <div className={classes.filterButtonContainer}>
-                <Button
+			<div className={classes.filterButtonContainer}>
+				<Button
 					id='orderByAlphabetical'
 					color='default'
-                    variant='contained'
-                    className={classes.filterButton}
+					variant='contained'
+					className={classes.filterButton}
 					onClick={() => {
 						sortAlphabetically();
 					}}
@@ -306,22 +310,22 @@ export default function DyeList() {
 				<Button
 					id='orderByColor'
 					color='default'
-                    variant='contained'
-                    className={classes.filterButton}
+					variant='contained'
+					className={classes.filterButton}
 					onClick={() => {
 						sortByColour();
 					}}
 				>
 					Sort By Group
-				</Button>                
+				</Button>
 			</div>
 			<div className={classes.filterButtonContainer}>
 				{createFilterButtons}
 				<Button
 					id='allDyes'
 					color='default'
-                    variant='contained'
-                    className={classes.filterButton}
+					variant='contained'
+					className={classes.filterButton}
 					onClick={() => {
 						changeSearchValue('');
 					}}
@@ -389,7 +393,7 @@ export default function DyeList() {
 						root: classes.listItem,
 					}}
 				>
-					<ListItemIcon>
+					<ListItemIcon key={"itemIconfor " + value.name}>
 						<div className={classes.dyeColorContainer}>
 							<Lens
 								className={classes.dyeColor}
@@ -397,8 +401,8 @@ export default function DyeList() {
 							/>
 						</div>
 					</ListItemIcon>
-					<ListItemText primary={value.name} />
-					<ListItemText primary={value.group} />
+					<ListItemText key={value.name} primary={value.name} />
+					<ListItemText key={"groupNameOf " + value.name} primary={value.group} />
 					{open[index] ? <ExpandLess /> : <ExpandMore />}
 				</ListItem>
 				<Collapse
@@ -423,21 +427,20 @@ export default function DyeList() {
 											locationKey.replace(' ', '')
 										}
 									>
-										<ListItem className={classes.nested}>
-											<Typography
-												key={value.name + locationKey}
-												className={classes.locationKey}
-											>
+										<ListItem className={classes.nested} key={value.name.replace(' ', '') + locationKey.replace(' ', '')}>
+											<Typography key={value.name + locationKey} className={classes.locationKey}>
 												{locationKey}
 											</Typography>
-											<Typography
-												key={
-													value.name + locationDetail
-												}
-											>
-												{locationEntries.split('/').map((loc, _) => {
-                                                    return <span className={classes.locationValue}>{loc}</span>
-                                                })}
+											<Typography key={value.name + locationDetail}>
+												{locationEntries
+													.split('/')
+													.map((loc, _) => {
+														return (
+															<span key={loc} className={classes.locationValue}>
+																{loc}
+															</span>
+														);
+													})}
 											</Typography>
 										</ListItem>
 										<Divider />
