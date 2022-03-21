@@ -1,45 +1,36 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import DyeList from './DyesList';
-import { Typography } from '@material-ui/core';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 
-const useStyles = makeStyles((theme) => ({
-	root: {
-        maxWidth: '100%',
-        minHeight: '100vh',
-        background: 'linear-gradient(#537780, #11d3bc, #55e9bc, #fffcca)',
-        backgroundAttachment: 'fixed',
-        [theme.breakpoints.up('lg')]: {            
-            paddingTop: theme.spacing(4),
-            paddingBottom: theme.spacing(8),
+import DyeList from './components/DyesList';
+
+const App = () => {
+	const theme = createTheme({
+		palette: {
+			mode: 'dark',
+			primary: {
+				light: '#b29ae2',
+				main: '#352258',
+			},
+			secondary: {
+				main: '#f50057',
+			},
 		},
-    },
-	paper: {
-		maxWidth: 1080,
-        margin: '0 auto',
-		backgroundColor: theme.palette.background.paper,
-    },
-    madeBy: {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        paddingTop: theme.spacing(2),
-        paddingBottom: theme.spacing(2),
-    },
-}));
+	});
 
-export default function App() {
-    const classes = useStyles();
+	// const XIVAPI = require('@xivapi/js')
+	// const xiv = new XIVAPI({
+	//     private_key: 'fecf958e03d74d96a059d735c87837cf5fe8fda3db8f48c58d361fbcf0f71640',
+	//     language: 'en',
+	//     verbose: true
+	// })
+
+	// /search?filters=ItemSearchCategory.Name_en=Dyes
 
 	return (
-		<div className={classes.root}>            
-		    <Paper className={classes.paper} elevation={3}>
-                <DyeList></DyeList>
-                <div className={classes.madeBy}>
-                    <Typography variant='subtitle2'>Made by Chelle Croke</Typography>
-                </div>
-            </Paper>
-        </div>
+		<ThemeProvider theme={theme}>
+			<DyeList />
+		</ThemeProvider>
 	);
-}
+};
+
+export default App;
