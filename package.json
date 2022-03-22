@@ -21,7 +21,7 @@
     "react-virtualized-auto-sizer": "^1.0.6",
     "react-window": "^1.8.6"
   },
-  "homepage": "https://chelle-c.github.io/ffxiv-dye-search",
+  "homepage": "https://bejewelled-paprenjak-eb6381.netlify.app/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
