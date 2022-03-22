@@ -84,17 +84,12 @@ const DyeList = () => {
 	const renderOptions = (
 		<Box className={classes.toolbarRadioGroup}>
 			<FormControl className={classes.filterButtonContainer}>
-				<FormLabel id='sortRadioGroup'>Sort Dyes</FormLabel>
-				<RadioGroup className={classes.filterButtonContainer}>
-					<FormControlLabel
-						key={`sortNameRadio`}
-						value={`sortByName`}
-						control={<Radio />}
-						label={`Sort By Name`}
-						onClick={() => {
-							sortAlphabetically();
-						}}
-					/>
+				<FormLabel id='sort-dyes-radio-group'>Sort Dyes</FormLabel>
+				<RadioGroup
+					className={classes.filterButtonContainer}
+					aria-labelledby='sort-dyes-radio-group'
+					defaultValue='sortByGroup'
+					name='radio-buttons-group'>
 					<FormControlLabel
 						key={`sortGroupRadio`}
 						value={`sortByGroup`}
@@ -104,12 +99,26 @@ const DyeList = () => {
 							sortByColour();
 						}}
 					/>
+					<FormControlLabel
+						key={`sortNameRadio`}
+						value={`sortByName`}
+						control={<Radio />}
+						label={`Sort By Name`}
+						onClick={() => {
+							sortAlphabetically();
+						}}
+					/>
 				</RadioGroup>
 			</FormControl>
 			<FormControl>
-				<FormLabel id='filterDyes'>Filter by Color</FormLabel>
-				<RadioGroup className={classes.filterButtonContainer}>
-					{generateFilterRadioButtons}
+				<FormLabel id='filter-dyes-radio-group'>
+					Filter by Color
+				</FormLabel>
+				<RadioGroup
+					className={classes.filterButtonContainer}
+					aria-labelledby='filter-dyes-radio-group'
+					defaultValue='allDyes'
+					name='filter-dyes-group'>
 					<FormControlLabel
 						key={`allDyesRadio`}
 						value={`allDyes`}
@@ -119,6 +128,7 @@ const DyeList = () => {
 							changeSearchValue('');
 						}}
 					/>
+					{generateFilterRadioButtons}
 				</RadioGroup>
 			</FormControl>
 		</Box>
@@ -243,16 +253,21 @@ const DyeList = () => {
 							<CardActions className={classes.flex}>
 								<Typography
 									className={classes.listItemWhereAction}
-									variant='subtitle1'
-								>
+									variant='subtitle1'>
 									Find locations
 									{open[index] ? (
 										<ExpandLess
-											sx={{ verticalAlign: 'middle' }}
+											sx={{
+												fontSize: '1.8rem',
+												verticalAlign: 'bottom',
+											}}
 										/>
 									) : (
 										<ExpandMore
-											sx={{ verticalAlign: 'middle' }}
+											sx={{
+												fontSize: '1.8rem',
+												verticalAlign: 'bottom',
+											}}
 										/>
 									)}
 								</Typography>
@@ -280,52 +295,44 @@ const DyeList = () => {
 										value.where
 									).length;
 								return (
-									<div
+									<li
+										className={classes.nested}
 										key={
-											'collapsibleListItem' +
 											value.name.replace(' ', '') +
 											locationKey.replace(' ', '')
 										}>
-										<li
-											className={classes.nested}
-											key={
-												value.name.replace(' ', '') +
-												locationKey.replace(' ', '')
-											}>
-											<Typography
-												key={value.name + locationKey}
-												className={classes.locationKey}
-												variant='h6'>
-												{locationKey}
-											</Typography>
-											<ul
-												key={
-													value.name + locationDetail
-												}
-												className={
-													classes.locationSubList
-												}>
-												{locationEntries
-													.split('/')
-													.map(loc => {
-														return (
-															<li
-																key={loc}
-																className={
-																	classes.locationValue
-																}>
-																<Typography>
-																	{loc}
-																</Typography>
-															</li>
-														);
-													})}
-											</ul>
-										</li>
+										<Typography
+											key={value.name + locationKey}
+											className={classes.locationKey}
+											sx={{
+												fontWeight: 'bold',
+												margin: '0.8rem',
+											}}>
+											{locationKey}
+										</Typography>
+										<ul
+											key={value.name + locationDetail}
+											className={classes.locationSubList}>
+											{locationEntries
+												.split('/')
+												.map(loc => {
+													return (
+														<li
+															key={loc}
+															className={
+																classes.locationValue
+															}>
+															<Typography>
+																{loc}
+															</Typography>
+														</li>
+													);
+												})}
+										</ul>
 										{index < locationListLength - 1 ? (
 											<Divider />
 										) : null}
-									</div>
+									</li>
 								);
 							}
 						)}

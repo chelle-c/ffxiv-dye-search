@@ -36,13 +36,6 @@ const dyeListStyles = makeStyles(theme => ({
 		minWidth: '220px',
 		minHeight: '100vh',
 		padding: '1em',
-		[theme.breakpoints.up('lg')]: {
-			padding: '3em',
-		},
-		[theme.breakpoints.up('md')]: {
-			padding: '2em',
-			minWidth: '236px',
-		},
 		backgroundColor: theme.palette.info.dark,
 	},
 	grow: {
@@ -53,6 +46,7 @@ const dyeListStyles = makeStyles(theme => ({
 	},
 	title: {
 		whiteSpace: 'nowrap',
+		textAlign: 'center',
 	},
 	search: {
 		position: 'relative',
@@ -192,13 +186,8 @@ const dyeListStyles = makeStyles(theme => ({
 	},
 	nested: {
 		padding: `${theme.spacing(1)} ${theme.spacing(2)}`,
-		display: 'grid',
-		gridTemplateRows: 'repeat(2, 50%)',
+		display: 'contents',
 		alignItems: 'baseline',
-	},
-	locationKey: {
-		fontWeight: 'bold',
-		margin: '0.8rem 0',
 	},
 	locationValue: {
 		display: 'list-item',
