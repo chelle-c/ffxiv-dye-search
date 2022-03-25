@@ -3,6 +3,19 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 import DyeList from './components/DyesList';
 
+// const XIVAPI = require('@xivapi/js')
+// const xiv = new XIVAPI({
+// 	private_key: 'fecf958e03d74d96a059d735c87837cf5fe8fda3db8f48c58d361fbcf0f71640',
+// 	language: 'en',
+// 	verbose: true
+// })
+
+// const getDyeItems = async () => {
+// 	let response = await xiv.search('filters=ItemSearchCategory.Name_en=Dyes')
+
+// 	return response;
+// }
+
 const App = () => {
 	const theme = createTheme({
 		palette: {
@@ -16,13 +29,6 @@ const App = () => {
 			},
 		},
 	});
-
-	// const XIVAPI = require('@xivapi/js')
-	// const xiv = new XIVAPI({
-	//     private_key: 'fecf958e03d74d96a059d735c87837cf5fe8fda3db8f48c58d361fbcf0f71640',
-	//     language: 'en',
-	//     verbose: true
-	// })
 
 	// /search?filters=ItemSearchCategory.Name_en=Dyes
 

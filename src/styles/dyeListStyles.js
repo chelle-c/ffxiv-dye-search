@@ -126,7 +126,6 @@ const dyeListStyles = makeStyles(theme => ({
 		display: 'grid',
 		gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
 		gap: '2rem',
-		// gridAutoRows: 'minmax(420px, auto)',
 		padding: '2rem',
 	},
 	listItemContainer: {
@@ -136,7 +135,6 @@ const dyeListStyles = makeStyles(theme => ({
 		alignSelf: 'start',
 		width: '100%',
 		maxWidth: '350px',
-		borderRadius: theme.shape.borderRadius,
 	},
 	listItem: {
 		display: 'flex',
@@ -150,7 +148,6 @@ const dyeListStyles = makeStyles(theme => ({
 	listItemClose: {
 		transitionDelay: '300ms',
 		transition: 'all .2s',
-		borderRadius: theme.shape.borderRadius,
 	},
 	listItemWhereAction: {
 		...theme.typography.button,
@@ -175,14 +172,12 @@ const dyeListStyles = makeStyles(theme => ({
 	whereCollpsible: {
 		paddingTop: 0,
 		width: '100%',
-		borderBottomLeftRadius: theme.shape.borderRadius,
-		borderBottomRightRadius: theme.shape.borderRadius,
 		backgroundImage: 'linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05))',
 		boxShadow:
 			'0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)',
 	},
 	whereList: {
-		padding: 0,
+		padding: '0',
 	},
 	nested: {
 		padding: `${theme.spacing(1)} ${theme.spacing(2)}`,
@@ -196,6 +191,9 @@ const dyeListStyles = makeStyles(theme => ({
 		whiteSpace: 'pre-wrap',
 		marginTop: theme.spacing(1),
 		marginBottom: theme.spacing(1),
+	},
+	locationSubList: {
+		padding: '0 2.5rem 0 3.5rem',
 	},
 	noItems: {
 		padding: '4rem 0 0 0',
