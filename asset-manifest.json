@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ffxiv-dye-search/static/css/main.58a43006.css",
+    "main.js": "/ffxiv-dye-search/static/js/main.1f3cd3cd.js",
+    "index.html": "/ffxiv-dye-search/index.html",
+    "main.58a43006.css.map": "/ffxiv-dye-search/static/css/main.58a43006.css.map",
+    "main.1f3cd3cd.js.map": "/ffxiv-dye-search/static/js/main.1f3cd3cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58a43006.css",
+    "static/js/main.1f3cd3cd.js"
+  ]
+}
