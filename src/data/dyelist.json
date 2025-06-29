@@ -1,0 +1,1311 @@
+[
+	{
+		"colorhex": "#e4dfd0",
+		"name": "Snow White",
+		"category": "Greys",
+		"location": {
+			"Beast Tribe": "North Shroud - Ehcatl (24-22) (Ixali)",
+			"Craft": "Grey Pigment",
+			"Quest": [
+				"Marks of the Monarch",
+				"Microbrewing",
+				"Something Worth Protecting"
+			],
+			"Dungeon": ["The Dusk Vigil", "The Vault"]
+		}
+	},
+	{
+		"colorhex": "#ACA8A2",
+		"name": "Ash Grey",
+		"category": "Greys",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			],
+			"Dungeon": "The Dusk Vigil"
+		}
+	},
+	{
+		"colorhex": "#898784",
+		"name": "Goobbue Grey",
+		"category": "Greys",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			],
+			"Dungeon": "The Dusk Vigil"
+		}
+	},
+	{
+		"colorhex": "#656565",
+		"name": "Slate Grey",
+		"category": "Greys",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			],
+			"Dungeon": "The Dusk Vigil"
+		}
+	},
+	{
+		"colorhex": "#484742",
+		"name": "Charcoal Grey",
+		"category": "Greys",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			],
+			"Dungeon": "The Dusk Vigil"
+		}
+	},
+	{
+		"colorhex": "#2B2923",
+		"name": "Soot Black",
+		"category": "Greys",
+		"location": {
+			"Craft": "Grey Pigment",
+			"Beast Tribe": "North Shroud - Ehcatl (24-22) (Ixali)",
+			"Quest": ["Marks of the Monarch", "A Porcine Plight"],
+			"Dungeon": "The Fractal Continuum"
+		}
+	},
+	{
+		"colorhex": "#E69F96",
+		"name": "Rose Pink",
+		"category": "Reds",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Kasumi: The Gold Saucer - Wonder Square (7.2-7.3)",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			],
+			"Quest": "Color Your World"
+		}
+	},
+	{
+		"colorhex": "#836969",
+		"name": "Lilac Purple",
+		"category": "Reds",
+		"location": {
+			"Beast Tribe": "Western La Noscea - Novv's Nursery (16-22) (Sahagin)",
+			"Quest": ["A Dirty Job", "Good Clean Fun", "The Mother of Exiles"]
+		}
+	},
+	{
+		"colorhex": "#5B1729",
+		"name": "Rolanberry Red",
+		"category": "Reds",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			]
+		}
+	},
+	{
+		"colorhex": "#781A1A",
+		"name": "Dalamud Red",
+		"category": "Reds",
+		"location": {
+			"Craft": "Red Pigment",
+			"Quest": "The Replacement Culler",
+			"Dungeon": "The Fractal Continuum"
+		}
+	},
+	{
+		"colorhex": "#622207",
+		"name": "Rust Red",
+		"category": "Reds",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			]
+		}
+	},
+	{
+		"colorhex": "#451511",
+		"name": "Wine Red",
+		"category": "Reds",
+		"location": {
+			"Craft": "Red Pigment",
+			"Quest": [
+				"A Dirty Job",
+				"Masher for a Day",
+				"Meeting with the Resistance"
+			]
+		}
+	},
+	{
+		"colorhex": "#CC6C5E",
+		"name": "Coral Pink",
+		"category": "Reds",
+		"location": {
+			"Beast Tribe": "Western La Noscea - Novv's Nursery (16-22) (Sahagin)",
+			"Quest": [
+				"A Dirty Job",
+				"Simply to Dye For",
+				"Something Worth Protecting"
+			],
+			"Dungeon": "The Great Gubal Library"
+		}
+	},
+	{
+		"colorhex": "#913B27",
+		"name": "Blood Red",
+		"category": "Reds",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			],
+			"Dungeon": "The Great Gubal Library",
+			"Desynthesis": "Mirrorfish"
+		}
+	},
+	{
+		"colorhex": "#E4AA8A",
+		"name": "Salmon Pink",
+		"category": "Reds",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			],
+			"Quest": "Highbridge Times"
+		}
+	},
+	{
+		"colorhex": "#B75C2D",
+		"name": "Sunset Orange",
+		"category": "Browns",
+		"location": {
+			"Craft": "Brown Pigment",
+			"Quest": ["Back Where It Belongs", "On to Little Ala Mhigo"],
+			"Dungeon": "The Fractal Continuum",
+			"Venture": [
+				"Waterside Exploration VII (Fishing Retainer Level 30)",
+				"Highland Exploration III (Mining Retainer Level 10)",
+				"Highland Exploration V (Mining Retainer Level 20)"
+			]
+		}
+	},
+	{
+		"colorhex": "#7D3906",
+		"name": "Mesa Red",
+		"category": "Browns",
+		"location": {
+			"Craft": "Brown Pigment",
+			"Quest": ["Back Where It Belongs", "On to Little Ala Mhigo"],
+			"Dungeon": "The Fractal Continuum",
+			"Venture": [
+				"Waterside Exploration VII (Fishing Retainer Level 30)",
+				"Highland Exploration III (Mining Retainer Level 10)",
+				"Highland Exploration V (Mining Retainer Level 20)"
+			]
+		}
+	},
+	{
+		"colorhex": "#6A4B37",
+		"name": "Bark Brown",
+		"category": "Browns",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Kasumi: The Gold Saucer - Wonder Square (7.2-7.3)",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			]
+		}
+	},
+	{
+		"colorhex": "#6E3D24",
+		"name": "Chocolate Brown",
+		"category": "Browns",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			]
+		}
+	},
+	{
+		"colorhex": "#4F2D1F",
+		"name": "Russet Brown",
+		"category": "Browns",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			]
+		}
+	},
+	{
+		"colorhex": "#3F3329",
+		"name": "Kobold Brown",
+		"category": "Browns",
+		"location": {
+			"Craft": "Brown Pigment",
+			"Venture": [
+				"Highland Exploration VII (Mining Retainer Level 30)",
+				"Woodland Exploration V (Botany Retainer Level 20)"
+			]
+		}
+	},
+	{
+		"colorhex": "#C99156",
+		"name": "Cork Brown",
+		"category": "Browns",
+		"location": {
+			"Beast Tribe": "Outer La Noscea - 789th Order Dig (21.6-17.8) (Kobolds)",
+			"Quest": [
+				"Children of the Derelicts",
+				"Something Worth Protecting",
+				"The Mother of Exiles"
+			]
+		}
+	},
+	{
+		"colorhex": "#996E3F",
+		"name": "Qiqirn Brown",
+		"category": "Browns",
+		"location": {
+			"Beast Tribe": "East Shroud - Little Solace (22-26) (Sylphs)"
+		}
+	},
+	{
+		"colorhex": "#644216",
+		"name": "Opo-opo Brown",
+		"category": "Browns",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			]
+		}
+	},
+	{
+		"colorhex": "#A2875C",
+		"name": "Aldgoat Brown",
+		"category": "Browns",
+		"location": {
+			"Beast Tribe": "East Shroud - Little Solace (22-26) (Sylphs)",
+			"Quest": "Good Clean Fun",
+			"Venture": [
+				"Waterside Exploration V (Fishing Retainer Level 20)",
+				"Woodland Exploration VII (Botany Retainer Level 30)"
+			]
+		}
+	},
+	{
+		"colorhex": "#8E581B",
+		"name": "Pumpkin Orange",
+		"category": "Browns",
+		"location": {
+			"Craft": "Brown Pigment",
+			"Quest": "Back Where It Belongs"
+		}
+	},
+	{
+		"colorhex": "#8E581B",
+		"name": "Acorn Brown",
+		"category": "Browns",
+		"location": {
+			"Beast Tribe": "East Shroud - Little Solace (22-26) (Sylphs)",
+			"Quest": "Children of the Derelicts"
+		}
+	},
+	{
+		"colorhex": "#C57424",
+		"name": "Orchard Brown",
+		"category": "Browns",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			]
+		}
+	},
+	{
+		"colorhex": "#6E3D24",
+		"name": "Chestnut Brown",
+		"category": "Browns",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			]
+		}
+	},
+	{
+		"colorhex": "#B9A489",
+		"name": "Gobbiebag Brown",
+		"category": "Browns",
+		"location": {
+			"Beast Tribe": "Outer La Noscea - 789th Order Dig (21.6-17.8) (Kobolds)"
+		}
+	},
+	{
+		"colorhex": "#92816C",
+		"name": "Shale Brown",
+		"category": "Browns",
+		"location": {
+			"Beast Tribe": "East Shroud - Little Solace (22-26) (Sylphs)",
+			"Quest": ["Children of the Derelicts", "Ok' Zundu's Got Talent"],
+			"Venture": "Highland Exploration IV (Mining Retainer Level 15)"
+		}
+	},
+	{
+		"colorhex": "#615245",
+		"name": "Mole Brown",
+		"category": "Browns",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			]
+		}
+	},
+	{
+		"colorhex": "#3F3329",
+		"name": "Loam Brown",
+		"category": "Browns",
+		"location": {
+			"Craft": "Brown Pigment",
+			"Quest": "Back Where It Belongs"
+		}
+	},
+	{
+		"colorhex": "#EBD3A0",
+		"name": "Bone White",
+		"category": "Yellows",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Kasumi: The Gold Saucer - Wonder Square (7.2-7.3)",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			],
+			"Quest": "Color Your World",
+			"Dungeon": "The Vault"
+		}
+	},
+	{
+		"colorhex": "#B7A370",
+		"name": "Ul Brown",
+		"category": "Yellows",
+		"location": {
+			"Beast Tribe": "Outer La Noscea - 789th Order Dig (21.6-17.8) (Kobolds)",
+			"Quest": "A Rocky Start"
+		}
+	},
+	{
+		"colorhex": "#DBB457",
+		"name": "Desert Yellow",
+		"category": "Yellows",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			]
+		}
+	},
+	{
+		"colorhex": "#F4DA46",
+		"name": "Honey Yellow",
+		"category": "Yellows",
+		"location": {
+			"Craft": "Yellow Pigment",
+			"Quest": "Barking Up The Right Tree",
+			"Dungeon": "The Vault"
+		}
+	},
+	{
+		"colorhex": "#E49E34",
+		"name": "Millicorn Yellow",
+		"category": "Yellows",
+		"location": {
+			"Craft": "Yellow Pigment",
+			"Quest": ["Barking Up The Right Tree", "The Mother of Exiles"],
+			"Venture": "Highland Exploration IX (Mining Retainer Level 40)"
+		}
+	},
+	{
+		"colorhex": "#F2D770",
+		"name": "Coeurl Yellow",
+		"category": "Yellows",
+		"location": {
+			"Beast Tribe": "Southern Thanalan - Ring of Ash (23-14) (Amalj'aa)",
+			"Quest": "Good Clean Fun",
+			"Venture": [
+				"Highland Exploration VIII (Mining Retainer Level 35)",
+				"Woodland Exploration III (Botany Retainer Level 10)"
+			]
+		}
+	},
+	{
+		"colorhex": "#F2D770",
+		"name": "Cream Yellow",
+		"category": "Yellows",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			],
+			"Dungeon": "The Vault"
+		}
+	},
+	{
+		"colorhex": "#A58430",
+		"name": "Halatali Yellow",
+		"category": "Yellows",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			]
+		}
+	},
+	{
+		"colorhex": "#403311",
+		"name": "Raisin Brown",
+		"category": "Yellows",
+		"location": {
+			"Beast Tribe": "Southern Thanalan - Ring of Ash (23-14) (Amalj'aa)",
+			"Quest": ["Barking Up The Right Tree", "Something Worth Protecting"]
+		}
+	},
+	{
+		"colorhex": "#585230",
+		"name": "Mud Green",
+		"category": "Greens",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Kasumi: The Gold Saucer - Wonder Square (7.2-7.3)",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			]
+		}
+	},
+	{
+		"colorhex": "#BBBB8A",
+		"name": "Sylph Green",
+		"category": "Greens",
+		"location": {
+			"Beast Tribe": "Outer La Noscea - 789th Order Dig (21.6-17.8) (Kobolds)",
+			"Quest": "Good Clean Fun"
+		}
+	},
+	{
+		"colorhex": "#ABB054",
+		"name": "Lime Green",
+		"category": "Greens",
+		"location": {
+			"Beast Tribe": "East Shroud - Little Solace (22-26) (Sylphs)",
+			"Quest": [
+				"A Rocky Start",
+				"Meat of the Matter",
+				"The Aftermath",
+				"The Bear and the Young'uns' Cares"
+			],
+			"Venture": "Highland Exploration VI (Mining Retainer Level 25)",
+			"Dungeon": "Sohm Al"
+		}
+	},
+	{
+		"colorhex": "#707326",
+		"name": "Moss Green",
+		"category": "Greens",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			],
+			"Desynthesis": "Doman Grass Carp"
+		}
+	},
+	{
+		"colorhex": "#1F4646",
+		"name": "Meadow Green",
+		"category": "Greens",
+		"location": {
+			"Beast Tribe": "Outer La Noscea - 789th Order Dig (21.6-17.8) (Kobolds)",
+			"Quest": ["If Wishes Were Horsebirds", "Ok' Zundu's Got Talent"]
+		}
+	},
+	{
+		"colorhex": "#4B5232",
+		"name": "Olive Green",
+		"category": "Greens",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			]
+		}
+	},
+	{
+		"colorhex": "#323621",
+		"name": "Marsh Green",
+		"category": "Greens",
+		"location": {
+			"Beast Tribe": "East Shroud - Little Solace (22-26) (Sylphs)",
+			"Quest": "Something Worth Protecting",
+			"Venture": "Woodland Exploration VI (Botany Retainer Level 25)"
+		}
+	},
+	{
+		"colorhex": "#9BB363",
+		"name": "Apple Green",
+		"category": "Greens",
+		"location": {
+			"Beast Tribe": "Outer La Noscea - 789th Order Dig (21.6-17.8) (Kobolds)",
+			"Dungeon": "Sohm Al"
+		}
+	},
+	{
+		"colorhex": "#658241",
+		"name": "Cactuar Green",
+		"category": "Greens",
+		"location": {
+			"Beast Tribe": "East Shroud - Little Solace (22-26) (Sylphs)"
+		}
+	},
+	{
+		"colorhex": "#284B2C",
+		"name": "Hunter Green",
+		"category": "Greens",
+		"location": {
+			"Beast Tribe": "North Shroud - Ehcatl (24-22) (Ixali)",
+			"Craft": "Green Pigment",
+			"Quest": "Good Clean Fun"
+		}
+	},
+	{
+		"colorhex": "#406339",
+		"name": "Ochu Green",
+		"category": "Greens",
+		"location": {
+			"Craft": "Green Pigment",
+			"Venture": [
+				"Waterside Exploration VI (Fishing Retainer Level 25)",
+				"Woodland Exploration IV (Botany Retainer Level 15)"
+			]
+		}
+	},
+	{
+		"colorhex": "#5F7558",
+		"name": "Adamantoise Green",
+		"category": "Greens",
+		"location": {
+			"Beast Tribe": "Outer La Noscea - 789th Order Dig (21.6-17.8) (Kobolds)",
+			"Quest": "Simply to Dye For"
+		}
+	},
+	{
+		"colorhex": "#3B4D3C",
+		"name": "Nophica Green",
+		"category": "Greens",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			]
+		}
+	},
+	{
+		"colorhex": "#1E2A21",
+		"name": "Deepwood Green",
+		"category": "Greens",
+		"location": {
+			"Craft": "Green Pigment",
+			"Quest": "The Aftermath",
+			"Venture": "Woodland Exploration IX (Botany Retainer Level 40)"
+		}
+	},
+	{
+		"colorhex": "#96BDB9",
+		"name": "Celeste Green",
+		"category": "Greens",
+		"location": {
+			"Craft": "Green Pigment",
+			"Quest": "The Aftermath",
+			"Venture": "Waterside Exploration IX (Fishing Retainer Level 40)",
+			"Dungeon": "The Great Gubal Library"
+		}
+	},
+	{
+		"colorhex": "#437272",
+		"name": "Turquoise Green",
+		"category": "Greens",
+		"location": {
+			"Beast Tribe": "East Shroud - Little Solace (22-26) (Sylphs)",
+			"Quest": "Big Trouble in Little Ala Mhigo",
+			"Dungeon": "The Great Gubal Library"
+		}
+	},
+	{
+		"colorhex": "#1F4646",
+		"name": "Morbol Green",
+		"category": "Greens",
+		"location": {
+			"Beast Tribe": "North Shroud - Ehcatl (24-22) (Ixali)",
+			"Craft": "Green Pigment",
+			"Quest": "Ok' Zundu's Got Talent"
+		}
+	},
+	{
+		"colorhex": "#B2C4CE",
+		"name": "Ice Blue",
+		"category": "Blues",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Kasumi: The Gold Saucer - Wonder Square (7.2-7.3)",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			],
+			"Quest": "Color Your World"
+		}
+	},
+	{
+		"colorhex": "#234172",
+		"name": "Sky Blue",
+		"category": "Blues",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			],
+			"Quest": "Tales from the Tidus Slayer"
+		}
+	},
+	{
+		"colorhex": "#6481A0",
+		"name": "Seafog Blue",
+		"category": "Blues",
+		"location": {
+			"Beast Tribe": "Southern Thanalan - Ring of Ash (23-14) (Amalj'aa)",
+			"Quest": "Ok' Zundu's Got Talent",
+			"Venture": [
+				"Highland Exploration VI (Mining Retainer Level 25)",
+				"Highland Exploration VIII (Mining Retainer Level 35)"
+			],
+			"Dungeon": "Neverreap"
+		}
+	},
+	{
+		"colorhex": "#3B6886",
+		"name": "Peacock Blue",
+		"category": "Blues",
+		"location": {
+			"Beast Tribe": "Southern Thanalan - Ring of Ash (23-14) (Amalj'aa)",
+			"Dungeon": "Neverreap"
+		}
+	},
+	{
+		"colorhex": "#1C3D54",
+		"name": "Rhotano Blue",
+		"category": "Blues",
+		"location": {
+			"Beast Tribe": "Western La Noscea - Novv's Nursery (16-22) (Sahagin)",
+			"Quest": "Simply to Dye For",
+			"Dungeon": "Neverreap"
+		}
+	},
+	{
+		"colorhex": "#B2C4CE",
+		"name": "Corpse Blue",
+		"category": "Blues",
+		"location": {
+			"Beast Tribe": "Western La Noscea - Novv's Nursery (16-22) (Sahagin)",
+			"Quest": "Ok' Zundu's Got Talent"
+		}
+	},
+	{
+		"colorhex": "#8E9BAC",
+		"name": "Ceruleum Blue",
+		"category": "Blues",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			]
+		}
+	},
+	{
+		"colorhex": "#2F3851",
+		"name": "Woad Blue",
+		"category": "Blues",
+		"location": {
+			"Craft": "Blue Pigment",
+			"Quest": [
+				"That None Shall Ever Again",
+				"If Wishes Were Horsebirds",
+				"Foot in the Door"
+			],
+			"Venture": "Highland Exploration IX (Mining Retainer Level 40)"
+		}
+	},
+	{
+		"colorhex": "#1A1F27",
+		"name": "Ink Blue",
+		"category": "Blues",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			],
+			"Desynthesis": "Mountain Kraken"
+		}
+	},
+	{
+		"colorhex": "#5B7FC0",
+		"name": "Raptor Blue",
+		"category": "Blues",
+		"location": {
+			"Beast Tribe": "Southern Thanalan - Ring of Ash (23-14) (Amalj'aa)",
+			"Quest": "A Rocky Start",
+			"Venture": "Woodland Exploration V (Botany Retainer Level 20)",
+			"Dungeon": "Neverreap"
+		}
+	},
+	{
+		"colorhex": "#3B6886",
+		"name": "Othard Blue",
+		"category": "Blues",
+		"location": {
+			"Craft": "Blue Pigment",
+			"Venture": "Waterside Exploration VI (Fishing Retainer Level 25)"
+		}
+	},
+	{
+		"colorhex": "#234172",
+		"name": "Storm Blue",
+		"category": "Blues",
+		"location": {
+			"Craft": "Blue Pigment",
+			"Quest": "That None Shall Ever Again",
+			"Venture": "Highland Exploration VII (Mining Retainer Level 30)"
+		}
+	},
+	{
+		"colorhex": "#112944",
+		"name": "Void Blue",
+		"category": "Blues",
+		"location": {
+			"Craft": "Blue Pigment",
+			"Dungeon": "The Fractal Continuum"
+		}
+	},
+	{
+		"colorhex": "#273067",
+		"name": "Royal Blue",
+		"category": "Blues",
+		"location": {
+			"Beast Tribe": "North Shroud - Ehcatl (24-22) (Ixali)",
+			"Quest": ["A Rocky Start", "Hungry Hungry Goobbues"]
+		}
+	},
+	{
+		"colorhex": "#181937",
+		"name": "Midnight Blue",
+		"category": "Blues",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			]
+		}
+	},
+	{
+		"colorhex": "#83B0D2",
+		"name": "Shadow Blue",
+		"category": "Blues",
+		"location": {
+			"Beast Tribe": "Western La Noscea - Novv's Nursery (16-22) (Sahagin)",
+			"Dungeon": "Sohm Al"
+		}
+	},
+	{
+		"colorhex": "#312D57",
+		"name": "Abyssal Blue",
+		"category": "Blues",
+		"location": {
+			"Craft": "Blue Pigment",
+			"Quest": "That None Shall Ever Again"
+		}
+	},
+	{
+		"colorhex": "#877FAE",
+		"name": "Lavender Purple",
+		"category": "Purples",
+		"location": {
+			"Beast Tribe": "Western La Noscea - Novv's Nursery (16-22) (Sahagin)",
+			"Quest": ["A Rocky Start", "If Wishes Were Horsebirds"],
+			"Dungeon": "The Aery"
+		}
+	},
+	{
+		"colorhex": "#3B2A3D",
+		"name": "Gloom Purple",
+		"category": "Purples",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Kasumi: The Gold Saucer - Wonder Square (7.2-7.3)",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			]
+		}
+	},
+	{
+		"colorhex": "#322C3B",
+		"name": "Currant Purple",
+		"category": "Purples",
+		"location": {
+			"Beast Tribe": "Southern Thanalan - Ring of Ash (23-14) (Amalj'aa)",
+			"Dungeon": "The Aery"
+		}
+	},
+	{
+		"colorhex": "#B79EBC",
+		"name": "Iris Purple",
+		"category": "Purples",
+		"location": {
+			"Beast Tribe": "Western La Noscea - Novv's Nursery (16-22) (Sahagin)",
+			"Dungeon": "The Aery"
+		}
+	},
+	{
+		"colorhex": "#3B2A3D",
+		"name": "Grape Purple",
+		"category": "Purples",
+		"location": {
+			"NPC Vendor": [
+				"Alaric: Old Gridania - Ebony Stalls (14.3-8.8)",
+				"Frine: Ishgard - The Pillars (6.0-9.9)",
+				"Junkmonger: Player Housing Vendor",
+				"Nanabe: Ul'dah - Sapphire Avenue Exchange (14.2-11.0)",
+				"Tokohana: Kugane - Kogane Dori (12.9-12.2)",
+				"Unsynrael: Limsa Lominsa - West Hawkers' Alley (6-12)"
+			],
+			"Quest": ["Changing of the Guard", "Wretched Hive of Villainy"],
+			"Dungeon": "The Aery"
+		}
+	},
+	{
+		"colorhex": "#FECEF5",
+		"name": "Lotus Pink",
+		"category": "Purples",
+		"location": {
+			"Craft": "Purple Pigment",
+			"Quest": "The Sullen Man"
+		}
+	},
+	{
+		"colorhex": "#DC9BCA",
+		"name": "Colibri Pink",
+		"category": "Purples",
+		"location": {
+			"Craft": "Purple Pigment",
+			"Quest": "Never Forget"
+		}
+	},
+	{
+		"colorhex": "#79526C",
+		"name": "Plum Purple",
+		"category": "Purples",
+		"location": {
+			"Craft": "Purple Pigment",
+			"Quest": "The Sullen Man",
+			"Venture": [
+				"Highland Exploration V (Mining Retainer Level 20)",
+				"Woodland Exploration VII (Botany Retainer Level 30)"
+			]
+		}
+	},
+	{
+		"colorhex": "#66304E",
+		"name": "Regal Purple",
+		"category": "Purples",
+		"location": {
+			"Craft": "Purple Pigment",
+			"Quest": "The Sullen Man"
+		}
+	},
+	{
+		"colorhex": "#F9F8F4",
+		"name": "Pure White",
+		"category": "Special Dyes",
+		"location": {
+			"Mog Station": "Pure White Dye",
+			"NPC Vendor": [
+				"(Gold Chocobo Feather) Calamity Salvager: Old Gridania - Mih Khetto's Amphitheatre (10-8)",
+				"(Gold Chocobo Feather) Calamity Salvager: Limsa Lominsa Upper Decks (11.3-14.3)",
+				"(Gold Chocobo Feather) Calamity Salvager: Ul'dah - Steps of Thal - Milvaneth Sacrarium (12-13)"
+			],
+			"Venture": "Quick Exploration (Any Retainer)",
+			"Deep Dungeon": "Heaven on High: Gold-haloed Sack"
+		}
+	},
+	{
+		"colorhex": "#1E1E1E",
+		"name": "Jet Black",
+		"category": "Special Dyes",
+		"location": {
+			"Mog Station": "Jet Black Dye",
+			"NPC Vendor": [
+				"(Gold Chocobo Feather) Calamity Salvager: Old Gridania - Mih Khetto's Amphitheatre (10-8)",
+				"(Gold Chocobo Feather) Calamity Salvager: Limsa Lominsa Upper Decks (11.3-14.3)",
+				"(Gold Chocobo Feather) Calamity Salvager: Ul'dah - Steps of Thal - Milvaneth Sacrarium (12-13)"
+			],
+			"Venture": "Quick Exploration (Any Retainer)"
+		}
+	},
+	{
+		"colorhex": "#EBECF0",
+		"name": "Metallic Silver",
+		"category": "Special Dyes",
+		"location": {
+			"Mog Station": "Metallic Silver Dye",
+			"NPC Vendor": [
+				"(Gold Chocobo Feather) Calamity Salvager: Old Gridania - Mih Khetto's Amphitheatre (10-8)",
+				"(Gold Chocobo Feather) Calamity Salvager: Limsa Lominsa Upper Decks (11.3-14.3)",
+				"(Gold Chocobo Feather) Calamity Salvager: Ul'dah - Steps of Thal - Milvaneth Sacrarium (12-13)"
+			],
+			"Venture": "Quick Exploration (Any Retainer)",
+			"Deep Dungeon": "Palace of the Dead : Silver-trimmed Sack"
+		}
+	},
+	{
+		"colorhex": "#EDE63D",
+		"name": "Metallic Gold",
+		"category": "Special Dyes",
+		"location": {
+			"Mog Station": "Metallic Gold Dye",
+			"NPC Vendor": [
+				"(Gold Chocobo Feather) Calamity Salvager: Old Gridania - Mih Khetto's Amphitheatre (10-8)",
+				"(Gold Chocobo Feather) Calamity Salvager: Limsa Lominsa Upper Decks (11.3-14.3)",
+				"(Gold Chocobo Feather) Calamity Salvager: Ul'dah - Steps of Thal - Milvaneth Sacrarium (12-13)"
+			],
+			"Venture": "Quick Exploration (Any Retainer)"
+		}
+	},
+	{
+		"colorhex": "#FDC8C6",
+		"name": "Pastel Pink",
+		"category": "Special Dyes",
+		"location": {
+			"Mog Station": "Pastel Pink Dye",
+			"NPC Vendor": [
+				"(Gold Chocobo Feather) Calamity Salvager: Old Gridania - Mih Khetto's Amphitheatre (10-8)",
+				"(Gold Chocobo Feather) Calamity Salvager: Limsa Lominsa Upper Decks (11.3-14.3)",
+				"(Gold Chocobo Feather) Calamity Salvager: Ul'dah - Steps of Thal - Milvaneth Sacrarium (12-13)"
+			],
+			"Venture": "Quick Exploration (Any Retainer)"
+		}
+	},
+	{
+		"colorhex": "#321919",
+		"name": "Dark Red",
+		"category": "Special Dyes",
+		"location": {
+			"Mog Station": "Dark Red Dye",
+			"Venture": "Quick Exploration (Any Retainer)"
+		}
+	},
+	{
+		"colorhex": "#28211C",
+		"name": "Dark Brown",
+		"category": "Special Dyes",
+		"location": {
+			"Mog Station": "Dark Brown Dye",
+			"Venture": "Quick Exploration (Any Retainer)"
+		}
+	},
+	{
+		"colorhex": "#BACFAA",
+		"name": "Pastel Green",
+		"category": "Special Dyes",
+		"location": {
+			"Mog Station": "Pastel Green Dye",
+			"NPC Vendor": [
+				"(Gold Chocobo Feather) Calamity Salvager: Old Gridania - Mih Khetto's Amphitheatre (10-8)",
+				"(Gold Chocobo Feather) Calamity Salvager: Limsa Lominsa Upper Decks (11.3-14.3)",
+				"(Gold Chocobo Feather) Calamity Salvager: Ul'dah - Steps of Thal - Milvaneth Sacrarium (12-13)"
+			],
+			"Venture": "Quick Exploration (Any Retainer)",
+			"Deep Dungeon": "Palace of the Dead : Silver-trimmed Sack"
+		}
+	},
+	{
+		"colorhex": "#152C2C",
+		"name": "Dark Green",
+		"category": "Special Dyes",
+		"location": {
+			"Mog Station": "Dark Green Dye",
+			"Venture": "Quick Exploration (Any Retainer)"
+		}
+	},
+	{
+		"colorhex": "#96A4D9",
+		"name": "Pastel Blue",
+		"category": "Special Dyes",
+		"location": {
+			"Mog Station": "Pastel Blue Dye",
+			"NPC Vendor": [
+				"(Gold Chocobo Feather) Calamity Salvager: Old Gridania - Mih Khetto's Amphitheatre (10-8)",
+				"(Gold Chocobo Feather) Calamity Salvager: Limsa Lominsa Upper Decks (11.3-14.3)",
+				"(Gold Chocobo Feather) Calamity Salvager: Ul'dah - Steps of Thal - Milvaneth Sacrarium (12-13)"
+			],
+			"Venture": "Quick Exploration (Any Retainer)"
+		}
+	},
+	{
+		"colorhex": "#121F2D",
+		"name": "Dark Blue",
+		"category": "Special Dyes",
+		"location": {
+			"Mog Station": "Dark Blue Dye",
+			"Venture": "Quick Exploration (Any Retainer)",
+			"Deep Dungeon": "Heaven on High: Gold-haloed Sack"
+		}
+	},
+	{
+		"colorhex": "#BBB5DA",
+		"name": "Pastel Purple",
+		"category": "Special Dyes",
+		"location": {
+			"Mog Station": "Pastel Purple Dye",
+			"NPC Vendor": [
+				"(Gold Chocobo Feather) Calamity Salvager: Old Gridania - Mih Khetto's Amphitheatre (10-8)",
+				"(Gold Chocobo Feather) Calamity Salvager: Limsa Lominsa Upper Decks (11.3-14.3)",
+				"(Gold Chocobo Feather) Calamity Salvager: Ul'dah - Steps of Thal - Milvaneth Sacrarium (12-13)"
+			],
+			"Venture": "Quick Exploration (Any Retainer)",
+			"Deep Dungeon": "Palace of the Dead : Silver-trimmed Sack"
+		}
+	},
+	{
+		"colorhex": "#232026",
+		"name": "Dark Purple",
+		"category": "Special Dyes",
+		"location": {
+			"Mog Station": "Dark Purple Dye",
+			"NPC Vendor": [
+				"(Gold Chocobo Feather) Calamity Salvager: Old Gridania - Mih Khetto's Amphitheatre (10-8)",
+				"(Gold Chocobo Feather) Calamity Salvager: Limsa Lominsa Upper Decks (11.3-14.3)",
+				"(Gold Chocobo Feather) Calamity Salvager: Ul'dah - Steps of Thal - Milvaneth Sacrarium (12-13)"
+			],
+			"Venture": "Quick Exploration (Any Retainer)",
+			"Deep Dungeon": "Palace of the Dead : Silver-trimmed Sack"
+		}
+	},
+	{
+		"colorhex": "#B61D4B",
+		"name": "Metallic Red",
+		"category": "Special Dyes",
+		"location": {
+			"Mog Station": "Metallic Red Dye",
+			"NPC Vendor": [
+				"(Gold Chocobo Feather) Calamity Salvager: Old Gridania - Mih Khetto's Amphitheatre (10-8)",
+				"(Gold Chocobo Feather) Calamity Salvager: Limsa Lominsa Upper Decks (11.3-14.3)",
+				"(Gold Chocobo Feather) Calamity Salvager: Ul'dah - Steps of Thal - Milvaneth Sacrarium (12-13)"
+			],
+			"Venture": "Quick Exploration (Any Retainer)"
+		}
+	},
+	{
+		"colorhex": "#E48C2F",
+		"name": "Metallic Orange",
+		"category": "Special Dyes",
+		"location": {
+			"Mog Station": "Metallic Orange Dye"
+		}
+	},
+	{
+		"colorhex": "#F4DA46",
+		"name": "Metallic Yellow",
+		"category": "Special Dyes",
+		"location": {
+			"Mog Station": "Metallic Yellow Dye"
+		}
+	},
+	{
+		"colorhex": "#22A757",
+		"name": "Metallic Green",
+		"category": "Special Dyes",
+		"location": {
+			"Mog Station": "Metallic Green Dye",
+			"NPC Vendor": [
+				"(Gold Chocobo Feather) Calamity Salvager: Old Gridania - Mih Khetto's Amphitheatre (10-8)",
+				"(Gold Chocobo Feather) Calamity Salvager: Limsa Lominsa Upper Decks (11.3-14.3)",
+				"(Gold Chocobo Feather) Calamity Salvager: Ul'dah - Steps of Thal - Milvaneth Sacrarium (12-13)"
+			],
+			"Venture": "Quick Exploration (Any Retainer)"
+		}
+	},
+	{
+		"colorhex": "#5ED4E6",
+		"name": "Metallic Sky Blue",
+		"category": "Special Dyes",
+		"location": {
+			"Mog Station": "Metallic Sky Blue Dye",
+			"NPC Vendor": [
+				"(Gold Chocobo Feather) Calamity Salvager: Old Gridania - Mih Khetto's Amphitheatre (10-8)",
+				"(Gold Chocobo Feather) Calamity Salvager: Limsa Lominsa Upper Decks (11.3-14.3)",
+				"(Gold Chocobo Feather) Calamity Salvager: Ul'dah - Steps of Thal - Milvaneth Sacrarium (12-13)"
+			],
+			"Venture": "Quick Exploration (Any Retainer)"
+		}
+	},
+	{
+		"colorhex": "#5052D9",
+		"name": "Metallic Blue",
+		"category": "Special Dyes",
+		"location": {
+			"Mog Station": "Metallic Blue Dye",
+			"NPC Vendor": [
+				"(Gold Chocobo Feather) Calamity Salvager: Old Gridania - Mih Khetto's Amphitheatre (10-8)",
+				"(Gold Chocobo Feather) Calamity Salvager: Limsa Lominsa Upper Decks (11.3-14.3)",
+				"(Gold Chocobo Feather) Calamity Salvager: Ul'dah - Steps of Thal - Milvaneth Sacrarium (12-13)"
+			],
+			"Venture": "Quick Exploration (Any Retainer)"
+		}
+	},
+	{
+		"colorhex": "#A366C2",
+		"name": "Metallic Purple",
+		"category": "Special Dyes",
+		"location": {
+			"Mog Station": "Metallic Purple Dye",
+			"NPC Vendor": [
+				"(Gold Chocobo Feather) Calamity Salvager: Old Gridania - Mih Khetto's Amphitheatre (10-8)",
+				"(Gold Chocobo Feather) Calamity Salvager: Limsa Lominsa Upper Decks (11.3-14.3)",
+				"(Gold Chocobo Feather) Calamity Salvager: Ul'dah - Steps of Thal - Milvaneth Sacrarium (12-13)"
+			],
+			"Venture": "Quick Exploration (Any Retainer)"
+		}
+	}
+]
