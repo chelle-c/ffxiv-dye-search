@@ -7,13 +7,9 @@ interface SearchAndFiltersProps {
 	categories: string[];
 }
 
-const SearchAndFilters: React.FC<SearchAndFiltersProps> = ({
-	filters,
-	setFilters,
-	categories,
-}) => {
+const SearchAndFilters: React.FC<SearchAndFiltersProps> = ({ filters, setFilters, categories }) => {
 	return (
-		<div className="bg-white dark:bg-neutral-800 rounded-lg shadow-md p-6 mb-8">
+		<div className="bg-white dark:bg-neutral-800 rounded-lg shadow-md p-6 mb-8 outline-solid outline outline-neutral-300 dark:outline-neutral-700">
 			<div className="grid grid-cols-1 md:grid-cols-4 gap-4">
 				{/* Search Input */}
 				<div className="p-2">
@@ -104,7 +100,7 @@ const SearchAndFilters: React.FC<SearchAndFiltersProps> = ({
 								sortBy: "name",
 							})
 						}
-						className="w-full px-4 py-2 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-600 transition-colors shadow-md shadow-blue-500"
+						className="w-full px-4 py-2 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-600 transition-colors shadow-sm shadow-blue-500 active:bg-blue-700 text-shadow-xs text-shadow-neutral-600"
 					>
 						Clear Filters
 					</button>
